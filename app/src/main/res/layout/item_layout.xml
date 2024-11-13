@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- item_layout.xml -->
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:backgroundTint="@color/purple_700"
+    android:layout_margin="10dp">
+
+    <FrameLayout
+        android:background="@color/purple_200"
+        android:layout_width="4dp"
+        android:layout_height="match_parent"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/latTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abhaya_libre_medium"
+        android:text="Latitude"
+        android:textColor="@color/purple_200"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/longTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abhaya_libre_medium"
+        android:text="Longitude"
+        android:textColor="@color/purple_200"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/displacementTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abhaya_libre_medium"
+        android:text="Displacement"
+        android:textColor="@color/purple_200"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/speedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abhaya_libre_medium"
+        android:text="Speed"
+        android:textColor="@color/purple_200"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/timestampTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/abhaya_libre_medium"
+        android:text="Timestamp"
+        android:textColor="@color/purple_200"
+        android:textSize="16sp" />
+
+</LinearLayout>
+</com.google.android.material.card.MaterialCardView>
+

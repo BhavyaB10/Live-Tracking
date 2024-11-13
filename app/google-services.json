@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "482482505583",
+    "project_id": "live-tracking-967be",
+    "storage_bucket": "live-tracking-967be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482482505583:android:e81929fb7800b112fbca9a",
+        "android_client_info": {
+          "package_name": "com.example.livetracking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNvdLPHMGsE4JJT53kdYa1vmqsiRDD664"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
